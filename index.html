@@ -18,40 +18,65 @@
 	 		<a class="user" href="#home"> <img src="img/user.png"></a>
 	 	</div>
 	</div>
-	<div class="wrap">
 
-		<div class="contact-form">
-
-		
-		<div class="title">
-			<img src="img/quora.png" alt="">
-			<h1>A place to share knowledge and better understand the world</h1>
-		</div>
-
-			<div class="account">
-				<div class="span"><a href="#"><img src="img/facebook.png" alt=""><i class="spanI">Continue with Facebook</i><div class="clear"></div></a></div>	
-				<div class="span1"><a href="#"><img src="img/gplus.png" alt=""><i class="spanI">Continue with Google+</i><div class="clear"></div></a></div>
-			</div>	
-		
-
-			<form class="contact_form" action="#" method="post" name="contact_form">
-				<h1>Login</h1>
-				<ul>
-					<li>
-						<input type="email" name="email" placeholder="Email" required />
-					</li>
-					<li>
-						<input type="password" name="website" placeholder="Password">
-					</li>
-				</ul>
-				<div class="forgot">
-					<a href="#">forgot password?</a>
-					<input type="submit" name="Sign In" value="Sign In"/>
-				</div>		
-			</form>
-		
-		<div class="clear"></div>	
-		</div>
+	<div class="login-form">
+		<div class="login-form_wrapper">
+			<div class="contact-form">
+				<div class="contact-form_title">
+					<div class="contact-form_title__quora-logo">
+						<img src="img/quora.svg" alt="Quora">
+					</div>	
+					<div class="contact-form_title__quora-slogan">
+						<span>A place to share knowledge and better understand the world</span>
+					</div>
+				</div>
+				<div class="contact-form_login-options">
+					<div class="contact-form_login-options__social-buttons contact-form_login-options__wrapper">
+						<div class="social-buttons">
+							<div class="social-buttons-wrapper facebook-button">
+								<a href="#">
+									<img src="img/facebook_icon.png" alt="F">
+									<span class="social-buttons-wrapper_button-text">Continue with Facebook</span>
+									<div class="clear"></div>
+								</a></div>	
+						</div>
+						<div class="social-buttons">
+							<div class="social-buttons-wrapper google-button">
+								<a href="#">
+									<img src="img/google_icon.png" alt="G">
+									<span class="social-buttons-wrapper_button-text">Continue with Google</span>
+									<div class="clear"></div>
+								</a>
+							</div>
+						</div>
+						<div class="contact-form_login-options__email-login">
+							<a href="">Continue With Email</a>
+							<span>. By signing up you indicate that you have read and agree to Terms of Service and Privacy Policy.</span>
+						</div>
+					</div>	
+					<div class="contact-form_login-options__input-fields contact-form_login-options__wrapper">
+						<form class="contact-form-login-options__form" action="#" method="post" name="contact_form">	
+							<span>login</span>
+							<div class="contact-form-login-options__form-inputs">
+								<ul>
+									<li>
+										<input type="email" name="email" placeholder="Email" required />
+									</li>
+									<li>
+										<input type="password" name="website" placeholder="Password">
+									</li>
+								</ul>
+							</div>
+							<div class="contact-form-login-options__form__forget-button">
+								<a href="#">forgot password?</a>
+							</div>
+							<input type="submit" name="Sign In" value="Login"/>
+						</form>
+					</div>
+				</div>
+				<div class="clear"></div>	
+			</div>
+		</div>	
 	</div>
 </body>
 <script src="dist/app.js"></script>

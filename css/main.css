@@ -9,121 +9,245 @@ body{
 	background-size: cover;
 }
 
-.wrap{
-	width: 50%;
+.login-form{
+	display: block;
+	position: relative;
+	top: 50px;
+	width: 650px;
+	height: 400px;
 	margin: 0 auto;
+	border-radius: 5px;
+	background-color:#fff;
+}
+
+.login-form_wrapper{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: calc( 100% - 25px);
+	padding-top: 25px;
+	margin: 0;
 }
 
 .clear{
 	clear:both;
 }
 
-.title h1{
-	text-align: center;
-	font-size: 15px !important;
-	color: #999 !important;
-	margin-left: 0 !important;
-}
-.title img{
+.contact-form_title{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	width: 300px;
-	height: 75px;
+	position: relative;
+	width: 100%;
+	height: 135px;
+	padding: 0;
+	margin: 0;
 }
 
-.contact_form {
-	width: 50%;
-	float: right;
+.contact-form_title__quora-logo{
+	display: block;
 	position: relative;
+	width: 225px;
+	height: 80px;
+	margin: 0 auto;
 }
+
+.contact-form_title__quora-logo img{
+	width: 100%;
+	height: 100%;
+}
+
+.contact-form_title__quora-slogan{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 25px;
+	margin: 15px 0 15px 0; 
+}
+
+.contact-form_title__quora-slogan span{
+	display: block;
+	position: relative;
+	line-height: 25px;
+	width: 100%;
+	text-align: center;			
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+ 	font-size: 18px;
+	font-weight: 400;
+	color: #999;
+}
+
+.contact-form_login-options {
+	display: block;
+	position: relative;	
+	width: calc( 100% - 30px - 30px );
+	height: calc( 100% - 135px - 30px - 30px );
+	padding: 30px;
+	margin: 0;
+}
+
+.contact-form_login-options__wrapper{
+	float: left;
+	display: block;
+	position: relative;
+	width: calc( 50% - 0.5px - 25px );
+	height: 100%;	
+}
+
+.contact-form_login-options__social-buttons{
+	padding-right: 25px;
+	margin: 0;
+	border-right: 1px solid #3333;
+}
+
+.contact-form_login-options__input-fields {
+	padding-left: 25px;
+	margin: 0;
+}
+
+.contact-form_login-options__email-login{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: calc( 100% - 2 * (25px + 8px + 8px +20px) );
+	line-height: 15px;
+	text-align: left;			
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	font-size: 14px;
+	font-weight: 400;
+	color: #999;
+}
+
+
+.contact-form_login-options__email-login a{
+	text-decoration: none;
+}
+
+.contact-form_login-options__email-login a:hover{
+	text-decoration: underline;
+}
+
 .contact-form{
-	background:#fff;
-	padding: 7%;
-	margin-top: 23%;
+	display: block;
 	position: relative;
-	border-radius: 12px;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
 }
-.contact-form h1{
-	font-size: 1em;
-	color:#474646;
-	margin-bottom: 0;
-	margin-left: 21%;
+
+.contact-form-login-options__form span{
+	display: block;
+	position: relative;
+	line-height: 17px;
+	width: 100%;
+	margin-bottom: 8px; 
+	text-align: left;			
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333333;
 }
-.contact_form ul {
+
+.contact-form-login-options__form ul {
 	list-style-type:none;
 	list-style-position:outside;
 	margin:0px;
 	padding:0px;
 }
-.contact_form li{ 
+
+.contact-form-login-options__form li{ 
 	float: left;
+	position: relative;
 	outline: none;
-	border: 1px solid #DDDDDD;
 	font-size: 1.2em;
 	color: #B6B6B6;
-	width: 95%;
+	width: 100%;
 	font-weight: 600;
-	margin-top: 8%;
-	position: relative;
-	height: 42px;
-	border-radius: 2px;
-	float: right;
+	height: 40px;
+	margin-bottom: 8px;
 }
-.contact_form li:hover{ 
-	color:#79B42B;
+
+.contact-form-login-options__form input:hover{ 
+	background-color:#f0eeee;
 }
-.contact_form input {
+
+.contact-form-login-options__form-inputs input {
 	float: left;
-	font-size: 1.1em;
+	font-size: 15px;
 	font-family: 'grande';
-	padding: 7px 14px;
-	width: 75%;
-	border: none;
-	outline: none;
-	color:#5f5f5f;
+	padding: 3px 8px;
+	width: calc( 100% - 8px - 8px );
+	height: calc( 100% - 3px - 3px - 8px );
+	margin-bottom: 8px; 
+	border: 1px solid #c7c7c7;
+	border-radius: 3px;
+	background-color: #e5e5e5;
 }
-.contact_form p {
+
+.contact-form-login-options__form p {
 	float: right;
 	padding: 8px 7px;
 	width: 9.3%;
 	cursor: pointer;
 }
-.contact_form i{
+.contact-form-login-options__form i{
 	font-size: 1em;
 	color:#B6B6B6;
 	width: 40%;
 	float: left;
 }
 
-.forgot{
-	float: right;
-	margin-top: 4px;
-}
-.forgot a{
-	color:#B6B6B6;
-	font-size: 1.1em;
-	text-decoration:none;
+.contact-form-login-options__form__forget-button{
 	float: left;
-	margin-left: -40%;
+	display: block;
+	position: relative;
+	width: 130px;
+	height: 17px;
 }
-.forgot a:hover{
-	color:#9b9b9b;
+
+.contact-form-login-options__form__forget-button a{
+	display: block;
+	position: relative;
+	line-height: 17px;
+	width: 100%;
+	text-align: left;			
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 400;
+	color:#999;
 }
-.forgot input[type="submit"] {
+.contact-form-login-options__form__forget-button a:hover{
+	text-decoration: underline;
+}
+
+.contact-form-login-options__form input[type="submit"] {
+	float: left;
+	display: block;
+	position: relative;
 	border: none;
 	outline: none;
 	cursor: pointer;
+	width: 60px;
+	height: 30px;
+	border-radius: 3px;
+	font-size: 15px;
 	color: #fff;
-	background: #79B42B;
-	width: 35%;
-	padding: 12px;
-	font-size: 1em;
-	float: right;
+	background-color: #79B42B;
+	margin-left: calc( 100% - 130px - 60px ); 
 }	
-.forgot input[type="submit"]:hover {
-	background:#88C470;
+
+.contact-form-login-options__form input[type="submit"]:hover {
+	background-color:#88C470;
 }	
 
 
@@ -132,39 +256,61 @@ body{
 	width: 50%;
 }
 
-.span {
-	margin-top: 10.4%;
+.social-buttons{
 	display: block;
-	width: 80%;
-	background: #3B5998;
+	position: relative;
+	margin: 0;
+	padding-bottom: 20px; 
 }
-.span img {
-	background:#354F88;
-	padding: 7px;
-	float: left;
+
+.social-buttons-wrapper{
+	display: block;
+	position: relative;
+	width: calc( 100% - 8px - 8px );
+	height: 25px;
+	padding: 8px;
+	border-radius: 3px;
 }
-.spanI{
-	color: #fff;
-	padding: 9px 14px;
+
+.facebook-button {
+	display: block;
+	background: #3b5998;
+	
+}
+.social-buttons img {
 	float: left;
-	font-size: 0.9em;
+	display: block;
+	width: 25px;
+	height: 25px;
+	padding-left: 10px; 
+}
+
+.social-buttons-wrapper_button-text{
+	float: left;
+	display: block;
+	position: relative;
+	line-height: 25px;
+	width: calc( 100% - 10px - 25px - 5px - 5px );
+	text-align: center;			
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+ 	font-size: 16px;
 	font-weight: 400;
+	color: #fff;
 }
-.span:hover {
-	background:#354F88;
+
+.google-button{
+	display: block;
+	background: #df4930;
 }
-.span1 {
-	margin-top: 9%;
-	width: 80%;
-	background: #DE4C34;
+
+.facebook-button:hover {
+	background:#6898ff;
 }
-.span1 img {
-	background: #CE3E26;
-	padding: 7px;
-	float: left;
-}
-.span1:hover {
-	background: #CE3E26;
+
+.google-button:hover {
+	background: #ff6c52;
 }
 
 .navbar {
