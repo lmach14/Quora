@@ -7,41 +7,52 @@
 <link rel="icon" href="img/Q.png" type="image/gif" sizes="16x16">
 </head>
 <body>
-<div class="wrap">
-
-	<div class="contact-form">
-
-	<!-- account -->
-	<div class="title">
-		<img src="img/quora.png" alt="">
-		<h1>A place to share knowledge and better understand the world</h1>
+	<div class="navbar">
+		<div class="bar">
+			<a class="logo" href="#home"> <img src="img/quora.png"></a>
+	 		<a class="active" href="#home">Home</a>
+	 		<a href="#news">Answer</a>
+	 		<a href="#contact">Notifications</a>
+	 		<input type="text" name="search" placeholder="Search Quora">
+	 		<button class="button">Add Question</button>
+	 		<a class="user" href="#home"> <img src="img/user.png"></a>
+	 	</div>
 	</div>
+	<div class="wrap">
 
-		<div class="account">
-			<div class="span"><a href="#"><img src="img/facebook.png" alt=""><i class="spanI">Continue with Facebook</i><div class="clear"></div></a></div>	
-			<div class="span1"><a href="#"><img src="img/gplus.png" alt=""><i class="spanI">Continue with Google+</i><div class="clear"></div></a></div>
-		</div>	
-	<!-- account -->
-	<!-- form -->
-		<form class="contact_form" action="#" method="post" name="contact_form">
-			<h1>Login</h1>
-			<ul>
-				<li>
-					<input type="email" name="email" placeholder="Email" required />
-				</li>
-				<li>
-					<input type="password" name="website" placeholder="Password">
-				</li>
-			</ul>
-			<div class="forgot">
-				<a href="#">forgot password?</a>
-				<input type="submit" name="Sign In" value="Sign In"/>
-			</div>		
-		</form>
-	<!-- form -->
-	<div class="clear"></div>	
+		<div class="contact-form">
+
+		
+		<div class="title">
+			<img src="img/quora.png" alt="">
+			<h1>A place to share knowledge and better understand the world</h1>
+		</div>
+
+			<div class="account">
+				<div class="span"><a href="#"><img src="img/facebook.png" alt=""><i class="spanI">Continue with Facebook</i><div class="clear"></div></a></div>	
+				<div class="span1"><a href="#"><img src="img/gplus.png" alt=""><i class="spanI">Continue with Google+</i><div class="clear"></div></a></div>
+			</div>	
+		
+
+			<form class="contact_form" action="#" method="post" name="contact_form">
+				<h1>Login</h1>
+				<ul>
+					<li>
+						<input type="email" name="email" placeholder="Email" required />
+					</li>
+					<li>
+						<input type="password" name="website" placeholder="Password">
+					</li>
+				</ul>
+				<div class="forgot">
+					<a href="#">forgot password?</a>
+					<input type="submit" name="Sign In" value="Sign In"/>
+				</div>		
+			</form>
+		
+		<div class="clear"></div>	
+		</div>
 	</div>
-</div>
 </body>
 <script src="dist/app.js"></script>
 </html>

@@ -1,4 +1,5 @@
 body{
+	margin: 0;
 	font-family: 'grande';
 	font-size:100%;
 	background: url(../img/bg.png) no-repeat;
@@ -166,5 +167,72 @@ body{
 	background: #CE3E26;
 }
 
+.navbar {
+	overflow: hidden;
+	background-color: #fff;
+}
+.bar{
+	margin-right: 12%; 
+	margin-left: 12%;
+}
+.logo img{
+	float: left;
+	width: 70px;
+	height: 20px;
+	
+}
+.user {
+	float: right !important;
+	padding: 8px !important;
+}
+.user img{
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+}
+
+.navbar a {
+	float: left;
+	color: #5f5e5e;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.navbar a:hover {
+	color: #be3c38;
+	background-color: white;
+}
+.navbar a.active {
+	color: #be3c38;
+	background-color: white; 
+	text-decoration: underline #be3c38;
+}
+
+.bar input[type=text] {
+	height: 29px;
+	width: 35%;
+	border: 1px solid #e2e2e2;
+	border-radius: 4px;
+	padding-left: 26px;
+	margin-top: 7px;
+	background: url(../img/search.png) no-repeat 8px center;
+	background-size: 13px;
+}
+
+.button {
+	float: right;
+	background-color: #be3c38;
+	color: white;
+	padding: 6px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 9px 2px;
+	cursor: pointer;
+	border: 0;
+	border-radius: 3px;
+}
 
 
