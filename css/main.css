@@ -367,18 +367,18 @@ body{
 	float: left;
 	color: #5f5e5e;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 12px 16px;
 	text-decoration: none;
 	font-size: 17px;
 }
 .navbar a:hover {
-	color: #be3c38;
-	background-color: white;
+	background-color: #efeae9;
+	border-bottom: 3px solid #efeae9;
 }
 .navbar a.active {
 	color: #be3c38;
 	background-color: white; 
-	text-decoration: underline #be3c38;
+	border-bottom: 3px solid #be3c38;
 }
 
 .bar input[type=text] {
