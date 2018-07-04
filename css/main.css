@@ -313,6 +313,32 @@ body{
 	background: #ff6c52;
 }
 
+/*       */
+
+.page{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #fafafa;
+}
+
+.page-wrapper{
+	height: 100%;
+}
+
+.page-main{
+	height: 100%;
+	margin: 0 auto;
+	width: 1000px !important;
+	display: block;
+}
+
+.page-holder{
+	display: block;
+	position: relative;
+	margin-top: 12px;
+}
+
 .navbar {
 	overflow: hidden;
 	background-color: #fff;
@@ -380,5 +406,120 @@ body{
 	border: 0;
 	border-radius: 3px;
 }
+
+
+.side-menu{
+	position: relative;
+	width: 170px;
+	display: block;
+}
+
+.side-menu-wrapper{
+	float: left;
+	position: fixed;
+	width: 170px;
+}
+
+.side-menu-wrapper img{
+	float: left;
+	display: block;
+	width: 18px;
+	height: 18px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.side-menu-wrapper_blocks__text{
+	display: block;
+	position: relative;
+	text-align: left;		
+	text-overflow: ellipsis;
+	white-space: normal;
+	font-weight: 400;	
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.side-menu-wrapper_title-block__feed{
+	float: left;
+	display: table-cell;
+	position: relative;
+	width: 50%;
+	line-height: 13px;
+	vertical-align: text-bottom;
+	font-size: 18px;
+	padding-top: 10px;
+	color: #333;
+}
+
+.side-menu-wrapper_title-block a{
+	float: left;
+	display: inline-block;
+	position: relative;
+	width: 50%;
+	line-height: 13px;
+	vertical-align: bottom;
+	text-align: right;		
+	font-size: 14px;
+	padding-top: 10px;
+	color: #999;
+}
+
+.side-menu-wrapper_title-block a:hover{
+	text-decoration: underline;
+}
+
+.side-menu-wrapper_options-block-wrapper{
+	display: block;
+	position: relative;
+	height: 30px;
+	width: 100%;
+	padding-bottom: 5px;
+	margin: 0;
+	border: 0;
+}
+
+.side-menu-wrapper_title-block-wrapper{
+	width: 100%;
+	height: calc( 100% - 8px );
+	padding-bottom: 8px;
+	border-bottom: 1px solid #3333;
+}
+
+.side-menu-wrapper_title-block{
+	width: calc( 100% - 28px );
+	height: 32px;
+	padding-left: 28px;
+	margin-bottom: 8px;
+}
+
+.side-menu-wrapper_options-block-wrapper__text-img-bundle{
+	width: 100%;
+	display: inline-block;
+}
+
+.side-menu-wrapper_options-block-wrapper__text-img-bundle img{
+	float: left;
+	display: block;
+	position: relative;
+	width: 14px;
+	height: 14px;
+	padding: 8px 14px 8px 0;  
+}
+
+.side-menu-wrapper_options-block-wrapper__text-img-bundle span{
+	float: left;
+	display: block;
+	position: relative;
+	line-height: 30px;
+	width: calc( 100% - 28px );
+	color: #666666;
+}
+
+.side-menu-wrapper_options-block-wrapper:hover .side-menu-wrapper_blocks__text{
+	color: #0026ff;
+}
+
 
 
