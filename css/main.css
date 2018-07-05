@@ -14,7 +14,7 @@ body{
 	position: relative;
 	top: 50px;
 	width: 650px;
-	height: 400px;
+	height: 420px;
 	margin: 0 auto;
 	border-radius: 5px;
 	background-color:#fff;
@@ -27,10 +27,6 @@ body{
 	height: calc( 100% - 25px);
 	padding-top: 25px;
 	margin: 0;
-}
-
-.clear{
-	clear:both;
 }
 
 .contact-form_title{
@@ -149,7 +145,7 @@ body{
 	text-overflow: ellipsis;
 	white-space: normal;
 	text-transform: capitalize;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	color: #333333;
 }
@@ -189,6 +185,15 @@ body{
 	border-radius: 3px;
 	background-color: #e5e5e5;
 }
+
+.contact-form-firstName-options__form-inputs {
+	width: calc( 55% - 8px - 8px ) !important;
+}
+.contact-form-lastName-options__form-inputs {
+	width: calc( 55% - 8px - 8px ) !important;
+	float: right !important;
+}
+
 
 .contact-form-login-options__form p {
 	float: right;
@@ -240,7 +245,7 @@ body{
 	width: 60px;
 	height: 30px;
 	border-radius: 3px;
-	font-size: 15px;
+	font-size: 14px;
 	color: #fff;
 	background-color: #79B42B;
 	margin-left: calc( 100% - 130px - 60px ); 
@@ -329,6 +334,7 @@ body{
 .page-main{
 	height: 100%;
 	margin: 0 auto;
+	padding-top: 55px;
 	width: 1000px !important;
 	display: block;
 }
@@ -342,6 +348,9 @@ body{
 .navbar {
 	overflow: hidden;
 	background-color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 .bar{
 	margin-right: 12%; 
