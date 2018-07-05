@@ -235,7 +235,7 @@ body{
 	text-decoration: underline;
 }
 
-.contact-form-login-options__form input[type="submit"] {
+.contact-form-login-options__form input[type="button"] {
 	float: left;
 	display: block;
 	position: relative;
@@ -251,7 +251,7 @@ body{
 	margin-left: calc( 100% - 130px - 60px ); 
 }	
 
-.contact-form-login-options__form input[type="submit"]:hover {
+.contact-form-login-options__form input[type="button"]:hover {
 	background-color:#88C470;
 }	
 

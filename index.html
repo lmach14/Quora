@@ -7,6 +7,7 @@
 <link rel="icon" href="img/Q.png" type="image/gif" sizes="16x16">
 </head>
 <body>
+	<template>
 	<div class='page'>
 		<div class="navbar">
 			<div class="bar">
@@ -70,8 +71,9 @@
 			</div>
 		</div>
 	</div>
+	</template>
 
-	<template>
+
 		<div class="login-form">
 			<div class="login-form_wrapper">
 				<div class="contact-form">
@@ -85,30 +87,30 @@
 					</div>
 					<div class="contact-form_login-options">
 						<div class="contact-form_login-options__social-buttons contact-form_login-options__wrapper">
-							<!-- <form class="contact-form-login-options__form" action="#" method="post" name="contact_form">	
+							<form class="contact-form-login-options__form" action="#" method="post" name="contact_form">	
 								<span>Sign Up</span>
 								<div class="contact-form-login-options__form-inputs">
 									<ul>
 										<li class="contact-form-firstName-options__form-inputs">
-											<input type="text" name="FirstName" placeholder="First Name" required />
+											<input id="signUpFirstName" type="text" name="FirstName" placeholder="First Name" required />
 										</li>
 										<li class="contact-form-lastName-options__form-inputs">
-											<input type="text" name="LastName" placeholder="Last Name">
+											<input id="signUpLastName" type="text" name="LastName" placeholder="Last Name">
 										</li>
 										<li>
-											<input type="email" name="Email" placeholder="Email" required />
+											<input id="signUpEmail" type="email" name="Email" placeholder="Email" required />
 										</li>
 										<li>
-											<input type="password" name="Password" placeholder="Password">
+											<input id="signUpPassword" type="password" name="Password" placeholder="Password">
 										</li>
 									</ul>
 								</div>
 								<div class="contact-form-login-options__form__forget-button">
 									<a href="#">Cancel</a>
 								</div>
-								<input type="submit" name="Sign In" value="Sign Up"/>
-							</form> -->
-							<div class="social-buttons">
+								<input type="button" name="Sign In" value="Sign Up"/>
+							</form>
+							<!-- <div class="social-buttons">
 								<div class="social-buttons-wrapper facebook-button">
 									<a href="#">
 										<img src="img/facebook_icon.png" alt="F">
@@ -126,32 +128,32 @@
 							<div class="contact-form_login-options__email-login">
 								<a href="">Continue With Email</a>
 								<span>. By signing up you indicate that you have read and agree to Terms of Service and Privacy Policy.</span>
-							</div>
+							</div> -->
 						</div>	
 						<div class="contact-form_login-options__input-fields contact-form_login-options__wrapper">
 							<form class="contact-form-login-options__form" action="#" method="post" name="contact_form">	
 								<span>login</span>
-								<div class="contact-form-login-options__form-inputs">
+								<div id="login_form" class="contact-form-login-options__form-inputs">
 									<ul>
 										<li>
-											<input type="email" name="Email" placeholder="Email" required />
+											<input id="loginEmail" type="email" name="email" placeholder="Email" required />
 										</li>
 										<li>
-											<input type="password" name="Password" placeholder="Password">
+											<input id="loginPassword" type="password" name="eassword" placeholder="Password">
 										</li>
 									</ul>
 								</div>
 								<div class="contact-form-login-options__form__forget-button">
 									<a href="#">forgot password?</a>
 								</div>
-								<input type="submit" name="Sign In" value="Login"/>
+								<input type="button" id="login_button" name="LogIn" value="Login"/>
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>	
 		</div>
-	</template>
+	
 	
 </body>
 <script src="dist/app.js"></script>
