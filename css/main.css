@@ -318,7 +318,6 @@ body{
 	background: #ff6c52;
 }
 
-/*       */
 
 .page{
 	width: 100%;
@@ -532,3 +531,87 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.question {
+	margin: auto;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 620px;
+	height: 180px;
+}
+
+.question input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.question input[type=button] {
+	float: right;
+	background-color: #3e78ad;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.question input[type=button]:hover {
+	background-color: #3f668a;
+}
+
+.question-user{
+	float: left;
+	text-decoration: none;
+}
+
+.question-user img{
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+}
+
+.question-text{
+	/*height:52px;*/
+	margin-bottom: 0;
+	resize: none;
+    overflow: hidden;
+}
+.question-link{
+	height:38px;
+	margin-top: 0;
+	resize: none;
+	overflow: hidden;
+}
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.question-checkbox{
+	float: right;
+	margin-right: 10px; 
+}
+.question-cancel{
+	float: right;
+	margin-right: 10px;
+	text-decoration: none;
+}

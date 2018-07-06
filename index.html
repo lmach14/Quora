@@ -7,7 +7,7 @@
 <link rel="icon" href="img/Q.png" type="image/gif" sizes="16x16">
 </head>
 <body>
-	<template>
+	
 	<div class='page'>
 		<div class="navbar">
 			<div class="bar">
@@ -23,6 +23,7 @@
 		<div class="page-wrapper">
 			<div class="page-main">
 				<div class="page-holder">
+				<template>
 					<div class="side-menu">
 						<div class="side-menu-wrapper">
 							<div class="side-menu-wrapper_title-block">
@@ -67,13 +68,47 @@
 							</div>
 						</div>
 					</div>
+
+					</template>
+
+
+					<div class="middle-page">
+						<div class="question">
+							<form action="#">
+								<span class="close">&times;</span>
+								<a class="question-user" href="#"><img src="img/user.png">User</a>
+								<textarea class="question-text" name="subject" placeholder="Write something.."></textarea>
+								<textarea class="question-link" name="subject" placeholder="Write something.."></textarea>
+								<input type="button" value="Add Question">
+								<a class="question-checkbox" ><input type="checkbox" name="checkbox" "> Add </a>
+								<a class="question-cancel" href="#">Cancel</a>
+							</form>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				</div>
 			</div>
 		</div>
 	</div>
-	</template>
+	
 
 
+	<template>
 		<div class="login-form">
 			<div class="login-form_wrapper">
 				<div class="contact-form">
@@ -153,7 +188,7 @@
 				</div>
 			</div>	
 		</div>
-	
+	</template>
 	
 </body>
 <script src="dist/app.js"></script>
